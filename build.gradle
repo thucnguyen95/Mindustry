@@ -276,6 +276,7 @@ project(":tests"){
         testImplementation "org.junit.jupiter:junit-jupiter-api:5.3.1"
         testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.3.1"
         compile arcModule("backends:backend-headless")
+        testCompile "org.mockito:mockito-core:2.+"
     }
 
     test{
